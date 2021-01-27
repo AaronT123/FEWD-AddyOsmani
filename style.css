@@ -1,2 +1,82 @@
 body {
+  font-family: helvetica;
+}
+
+p {
+  font-size: 1em;
+  font-weight:normal;
+}
+
+nav.main-nav {
+  text-align: right;
+  padding: 1em;
+}
+
+nav.main-nav a {
+  padding: 1em;
+  color: CornflowerBlue;
+  text-decoration: none;
+}
+
+nav.main-nav a.blog {
+  background-color: CornflowerBlue;
+  color: white;
+  border-radius: 0.8em;
+}
+
+.profile {
+  padding: 3em 0 3em 0;
+  text-align: center;
+}
+
+.wrapper, .about {
+  margin: 0 40em 0 40em;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: gray;
+  margin-top: 0.2em;
+}
+
+.highlight {
+  color: crimson;
+}
+
+.profile .wrapper {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+
+img.bubble {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+}
+
+
+table {
+  text-align: left;
+}
+
+footer {
+  margin-top: 5em;
+  text-align: left;
+  color: grey;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+}
+
+p a {
+  color: CornflowerBlue;
+  text-decoration: none;
+}
+
+th img {
+  padding-right: 1em;
 }
